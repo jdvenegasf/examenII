@@ -32,14 +32,14 @@ var app = new Framework7({
     	name: 'consolas',
   		},
 		{
-		path: '/swiper/',
-    	url: 'swiper.html',
-    	name: 'swiper',
+		path: '/perfil/',
+    	url: 'perfil.html',
+    	name: 'perfil',
   		},
 		{
-		path: '/checkout/',
-    	url: 'checkout.html',
-    	name: 'checkout',
+		path: '/nintendo-64/',
+    	url: 'nintendo-64.html',
+    	name: 'nintendo-64',
   		}
 		
 	],

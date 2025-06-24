@@ -85,7 +85,7 @@
 			</section>
 
 <section data-name="home" class="page">
-	
+
 <nav class="navbar">
 				<div class="navbar-bg"></div>
 				<div class="navbar-inner">
@@ -100,45 +100,43 @@
 	
 	<section class="page-content">
 		
-		<div class="row">
+		<div class="swiper-container product-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="img/n64.png" alt="Nintendo 64" class="product-image" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/nintendo64-3.png" alt="Nintendo 64" class="product-image" />
+        </div>
+        <div class="swiper-slide">
+          <img src="img/nintendo64-2.png" alt="Nintendo 64" class="product-image" />
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="block">
+      <p class="category-label">Consolas Retro</p>
+      <h2 class="product-title">Nintendo 64 | 1987</h2>
+      <p class="product-price">L 8,000.00</p>
+      <p class="product-description">
+        La legendaria consola de Nintendo que marcó una generación. Ideal para
+        coleccionistas, incluye controles originales y puerto de expansión.
+        Estado: Nuevo. Embalaje original incluido.
+      </p>
+
+      <div class="quantity-block">
+        <label for="quantity">Cantidad:</label>
+        <input type="number" id="quantity" min="1" max="10" value="1" />
+      </div>
+
+      <button class="button button-fill color-green add-to-cart-button">
+        <i class="material-icons" style="margin-right: 8px;">add_shopping_cart</i>
+        Añadir al carrito
+      </button>
+    </div>
 		
-			<article class="col-50">
-				<div class="card">
-					<a href="/consolas/">
-						<img src="img/n64.png" alt="" class="img-fluid" width="200px">
-						<h2 align="center">Consolas</h2>
-					</a>
-				</div>
-			</article>
-			
-			<article class="col-50">
-				<div class="card">
-					<img src="img/pokemon.png" alt="" class="img-fluid" width="200px">
-					<h2 align="center">Juegos</h2>
-				</div>
-			</article>
-		
-		</div>
-		
-		<div class="row">
-		
-			<article class="col-50">
-				<div class="card">
-					<img src="img/psp.png" alt="" class="img-fluid" width="200px">
-					<h2 align="center">Accesorios</h2>
-				</div>
-			</article>
-			
-			<article class="col-50">
-				<div class="card">
-					<img src="img/zelda.png" alt="" class="img-fluid" width="200px">
-					<h2 align="center">Merch</h2>
-				</div>
-			</article>
-		
-		</div>
-	
-		<nav class="toolbar toolbar-bottom tabbar-labels">
+	<nav class="toolbar toolbar-bottom tabbar-labels">
 				<div class="toolbar-inner">
 					<a href="/home/" class="tab-link">
 						<i class="material-icons">home</i>
@@ -159,8 +157,7 @@
 					</a>
 				</div>
 			</nav>
-		
+	
 	</section>
-
-
+	
 </section>
